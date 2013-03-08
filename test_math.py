@@ -4,7 +4,7 @@ def custom_sum(*args):
     """Calculate the sum of two given numbers.
        Make the sum work for multiple arguments
     """
-    crt = 0
+    crt = 1
     for var in args:
         crt += var
     return crt
