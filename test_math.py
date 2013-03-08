@@ -5,6 +5,7 @@ def custom_sum(*args):
        Make the sum work for multiple arguments
     """
     crt = 1
+    # Iterate over all arguments, and sum them all together.
     for var in args:
         crt += var
     return crt
