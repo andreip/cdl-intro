@@ -1,1 +1,31 @@
 This is the intro repo to cdl.
+
+Pasi de urmat:
+1. Despre git, la ce e util.
+2. Configurați global repository-ul. Setați username, email, pager, culori și editor.
+3. Construiți o pereche de chei SSH.
+4. Creați-vă un cont pe GitHub. Veți fi adăugați la proiectul de test.
+5. Adăugați-vă cheia SSH pe GitHub.
+6. Clonați repository-ul de la https://github.com/$account/cdl-intro. Folosiți versiunea 'git@…'
+7. Intrați în directorul asociat numelui vostru și creați un fișier 'me.txt' cu conținut la libera alegere.
+8. Faceți commit cu acest fișier și faceți push.
+   (pull --rebase, http://learn.github.com/p/intro.html#snapshots_not_changesets)
+9. Vizualizați istoria repository-ului clonat.
+10. Afișați al 24-lea commit din spatele commitului actual și părintele acestuia
+11. Modificați fișierul 'numbers': schimbați linia corespunzătoare valorii '10 * n' unde 'n' este numărul vostru din tabelul de participanți.
+12. Faceți un commit urmat de push. Se vor rezolva conflictele automat.
+13. Treceți-vă numele în 'signatures'. La push se vor genera conflicte, rezolvați-le.
+14. Creați un branch cu numele vostru în care ștergeți toate directoarele mai puțin cel asociat voua. Commit, push branch.
+15. Identificați cine a modificat linia 10 din 'numbers'
+16. Scriptul 'test_math.py' conține un bug. Identificați-l folosind 'git bisect'.
+17. Branchul 'extra' conține un commit care trebuie să ajungă în master. Folosiți 'git cherry-pick'
+18. Creați un tag pe branch-ul vostru și comiteți-l upstream.
+19. Ștergeți branch-ul propriu.
+
+Link-uri utile:
+1) http://gitimmersion.com/
+2) http://techblog.rosedu.org/git-good-practices.html
+3) http://nvie.com/posts/a-successful-git-branching-model/
+4) http://git-scm.com/doc
+5) http://gitready.com/
+6) http://gitolite.com/gcs/index.html
