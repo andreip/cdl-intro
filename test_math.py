@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
 def custom_sum(*args):
-    """Calculate the sum of two given numbers."""
+    """Calculate the sum of two given numbers.
+       Make the sum work for multiple arguments
+    """
     crt = 0
     for var in args:
         crt += var
